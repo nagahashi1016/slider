@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.price-range{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+}
+.min{
+    margin-top: 3%;
+}
+.max{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.ui-slider .ui-slider-handle{
+    background-color: rgb(190, 186, 60);
+}
+
+.ui-slider .ui-slider-range{
+    background-color: rgb(218, 223, 83);
+}
+
+#price-range-slider {
+    width: 40%;
+    margin-left:auto;
+    margin-right: auto;
+}
+#price-range-labels {
+    text-align: center;
+    margin: 3%;
+}

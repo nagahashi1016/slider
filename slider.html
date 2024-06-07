@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>価格帯スライダー</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.7.0.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <script src="js/slider.js"></script>
+    <link rel="stylesheet" href="css/slider.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>価格帯で部屋を検索</h1>
+        <div class="price-range">
+            <div class="min">
+                <label for="min-price">最低価格:</label>
+                <input type="number" id="min-price" min="100" max="1000">$
+            </div>
+            <div class="max">
+                <label for="max-price">最高価格:</label>
+                <input type="number" id="max-price" min="100" max="1000">$
+            </div>
+        </div>
+        <div id="price-range-slider"></div>
+        <div id="price-range-labels"></div>
+    </div>
+</body>
+</html>
